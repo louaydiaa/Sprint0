@@ -1,0 +1,26 @@
+$ cd ..
+$ cd Diaa-dell
+$ cd Desktop
+$ cd GUC
+$ git init
+$ git status
+$ git add 1.1.txt
+$ git add 3.1.txt
+$ git add 5.1.txt
+$ git status
+$ git commit -m 'added file'
+$ git rm 3.1.txt
+$ git commit -m 'deleted'
+$ git log
+$ git revert f5f8805849a0fd0b7095581f03f68b3d6f643264
+$ git push https://github.com/louaydiaa/Sprint0.git
+$ git remote add origin https://github.com/louaydiaa/Sprint0.git
+$ git pull --rebase origin master
+$ git push -u origin master
+$ git checkout -b ReadMe
+$ git status
+$ git add README.md
+$ git status
+$ git commit -m 'added the README.md file to ReadMe branch'
+$ git checkout master
+$ git merge ReadMe

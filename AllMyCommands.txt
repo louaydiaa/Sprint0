@@ -24,3 +24,5 @@ $ git status
 $ git commit -m 'added the README.md file to ReadMe branch'
 $ git checkout master
 $ git merge ReadMe
+$ git add AllMyCommands.txt
+$ git commit -m 'added AllMyCommands.txt file'
